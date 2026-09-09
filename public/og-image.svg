@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0c12" />
+      <stop offset="1" stop-color="#0e1119" />
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b82f6" />
+      <stop offset="1" stop-color="#22d3ee" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <path d="M0 157.5H1200M0 315H1200M0 472.5H1200M300 0V630M600 0V630M900 0V630" />
+  </g>
+  <text x="80" y="250" fill="#e6e9f0" font-family="Inter, sans-serif" font-size="76" font-weight="800">Ahmad Al-Wattar</text>
+  <text x="82" y="320" fill="#9aa4b2" font-family="'JetBrains Mono', monospace" font-size="30" letter-spacing="2">FULL STACK DEVELOPER  ·  NETWORK ENGINEER</text>
+  <text x="80" y="404" fill="#c4ccd8" font-family="Inter, sans-serif" font-size="30" font-weight="500">Software meets infrastructure — from Laravel &amp; React</text>
+  <text x="80" y="446" fill="#c4ccd8" font-family="Inter, sans-serif" font-size="30" font-weight="500">to RADIUS/AAA systems and ISP networks.</text>
+  <g transform="translate(80 500)" fill="none" stroke="url(#stroke)" stroke-width="4" stroke-linecap="round">
+    <circle cx="6" cy="30" r="6" fill="#3b82f6" stroke="none" />
+    <path d="M12 30h180" />
+    <circle cx="198" cy="30" r="6" fill="#22d3ee" stroke="none" />
+    <path d="M204 30h180" />
+    <circle cx="390" cy="30" r="6" fill="#8b5cf6" stroke="none" />
+    <path d="M396 30h180" />
+    <circle cx="582" cy="30" r="6" fill="#3b82f6" stroke="none" />
+  </g>
+</svg>

@@ -1,4 +1,5 @@
 import { about } from '../data/profile';
+import { asset } from '../lib/asset';
 import { Reveal } from '../components/Reveal';
 import { Section, SectionHeading } from '../components/primitives';
 
@@ -25,7 +26,7 @@ export function About() {
         <Reveal delay={120} className="space-y-6">
           <div className="overflow-hidden rounded-2xl border border-line bg-base-850/60">
             <img
-              src="/profile.png"
+              src={asset('profile.png')}
               alt="Ahmad Al-Wattar"
               width={640}
               height={640}

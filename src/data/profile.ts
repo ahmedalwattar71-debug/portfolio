@@ -7,6 +7,7 @@
  * credentials have been invented or embellished.
  */
 
+import { asset } from '../lib/asset';
 import type {
   AboutContent,
   Certification,
@@ -314,14 +315,14 @@ export const cvVariants: CVVariant[] = [
     id: 'full-stack',
     label: 'Full Stack Developer CV',
     description: 'Software focus — Laravel, React, TypeScript, Python and the RADIUS build.',
-    href: '/cv/Ahmad-Al-Wattar-Full-Stack-Developer.pdf',
+    href: asset('cv/Ahmad-Al-Wattar-Full-Stack-Developer.pdf'),
     filename: 'Ahmad-Al-Wattar-Full-Stack-Developer.pdf',
   },
   {
     id: 'network',
     label: 'Network Engineer CV',
     description: 'Infrastructure focus — ISP networks, PTP microwave, RADIUS/AAA, CCNA.',
-    href: '/cv/Ahmad-Al-Wattar-Network-Engineer.pdf',
+    href: asset('cv/Ahmad-Al-Wattar-Network-Engineer.pdf'),
     filename: 'Ahmad-Al-Wattar-Network-Engineer.pdf',
   },
 ];

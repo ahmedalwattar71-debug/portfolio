@@ -22,7 +22,18 @@ export function About() {
           ))}
         </div>
 
-        <Reveal delay={120}>
+        <Reveal delay={120} className="space-y-6">
+          <div className="overflow-hidden rounded-2xl border border-line bg-base-850/60">
+            <img
+              src="/profile.png"
+              alt="Ahmad Al-Wattar"
+              width={640}
+              height={640}
+              loading="lazy"
+              className="aspect-square w-full object-cover object-top"
+            />
+          </div>
+
           <dl className="divide-y divide-line rounded-2xl border border-line bg-base-850/60">
             {about.highlights.map((item) => (
               <div key={item.label} className="flex flex-col gap-1 px-5 py-4">
